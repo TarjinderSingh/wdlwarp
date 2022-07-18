@@ -16,13 +16,13 @@ version 1.0
 ## page at https://hub.docker.com/r/broadinstitute/genomes-in-the-cloud/ for detailed
 ## licensing information pertaining to the included programs.
 
-import "Alignment.wdl" as Alignment
-import "DragmapAlignment.wdl" as DragmapAlignment
-import "SplitLargeReadGroup.wdl" as SplitRG
-import "Qc.wdl" as QC
-import "BamProcessing.wdl" as Processing
-import "Utilities.wdl" as Utils
-import "DNASeqStructs.wdl" as Structs
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/Alignment.wdl" as Alignment
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/DragmapAlignment.wdl" as DragmapAlignment
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/SplitLargeReadGroup.wdl" as SplitRG
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/Qc.wdl" as QC
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/BamProcessing.wdl" as Processing
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/Utilities.wdl" as Utils
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/DNASeqStructs.wdl" as Structs
 
 # WORKFLOW DEFINITION
 workflow UnmappedBamToAlignedBam {

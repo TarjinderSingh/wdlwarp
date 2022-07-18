@@ -15,7 +15,7 @@ version 1.0
 ## page at https://hub.docker.com/r/broadinstitute/genomes-in-the-cloud/ for detailed
 ## licensing information pertaining to the included programs.
 
-import "DNASeqStructs.wdl"
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/DNASeqStructs.wdl"
 
 # Read unmapped BAM, convert on-the-fly to FASTQ and stream to BWA MEM for alignment, then stream to MergeBamAlignment
 task SamToFastqAndBwaMemAndMba {

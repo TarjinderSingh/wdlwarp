@@ -1,10 +1,10 @@
 version 1.0
 
-import "GermlineVariantDiscovery.wdl" as Calling
-import "Qc.wdl" as QC
-import "Utilities.wdl" as Utils
-import "BamProcessing.wdl" as BamProcessing
-import "DragenTasks.wdl" as DragenTasks
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/GermlineVariantDiscovery.wdl" as Calling
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/Qc.wdl" as QC
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/Utilities.wdl" as Utils
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/BamProcessing.wdl" as BamProcessing
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/DragenTasks.wdl" as DragenTasks
 
 workflow VariantCalling {
 

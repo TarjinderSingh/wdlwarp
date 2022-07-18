@@ -1,7 +1,7 @@
 version 1.0
 
-import "Utilities.wdl" as Utils
-import "Qc.wdl" as QC
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/Utilities.wdl" as Utils
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/Qc.wdl" as QC
 
 workflow BamToCram {
 

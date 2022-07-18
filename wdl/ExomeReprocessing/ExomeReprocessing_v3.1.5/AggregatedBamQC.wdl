@@ -15,8 +15,8 @@ version 1.0
 ## page at https://hub.docker.com/r/broadinstitute/genomes-in-the-cloud/ for detailed
 ## licensing information pertaining to the included programs.
 
-import "Qc.wdl" as QC
-import "DNASeqStructs.wdl"
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/Qc.wdl" as QC
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/DNASeqStructs.wdl"
 
 # WORKFLOW DEFINITION
 workflow AggregatedBamQC {

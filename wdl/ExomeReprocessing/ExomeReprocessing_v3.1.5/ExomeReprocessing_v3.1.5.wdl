@@ -1,8 +1,8 @@
 version 1.0
 
-import "https://raw.githubusercontent.com/TarjinderSingh/gatk-sv/master/wdl/ExomeGermlineSingleSample.wdl" as ExomeGermlineSingleSample
-import "CramToUnmappedBams.wdl" as ToUbams
-import "DNASeqStructs.wdl"
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/ExomeGermlineSingleSample.wdl" as ExomeGermlineSingleSample
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/CramToUnmappedBams.wdl" as ToUbams
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/DNASeqStructs.wdl"
 
 workflow ExomeReprocessing {
 

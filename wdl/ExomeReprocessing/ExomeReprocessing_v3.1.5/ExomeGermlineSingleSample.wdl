@@ -28,13 +28,13 @@ version 1.0
 ## page at https://hub.docker.com/r/broadinstitute/genomes-in-the-cloud/ for detailed
 ## licensing information pertaining to the included programs.
 
-import "UnmappedBamToAlignedBam.wdl" as ToBam
-import "AggregatedBamQC.wdl" as AggregatedQC
-import "Qc.wdl" as QC
-import "BamProcessing.wdl" as Processing
-import "BamToCram.wdl" as ToCram
-import "VariantCalling.wdl" as ToGvcf
-import "DNASeqStructs.wdl"
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/UnmappedBamToAlignedBam.wdl" as ToBam
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/AggregatedBamQC.wdl" as AggregatedQC
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/Qc.wdl" as QC
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/BamProcessing.wdl" as Processing
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/BamToCram.wdl" as ToCram
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/VariantCalling.wdl" as ToGvcf
+import "https://raw.githubusercontent.com/TarjinderSingh/wdlwarp/master/wdl/ExomeReprocessing/ExomeReprocessing_v3.1.5/DNASeqStructs.wdl"
 
 # WORKFLOW DEFINITION
 workflow ExomeGermlineSingleSample {
